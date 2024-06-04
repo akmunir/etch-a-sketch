@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    height: 55vh;
+    width: 55vh;
+    border: solid black 1px;
+    flex-wrap: wrap;
+}
+.grid-square {
+    background-color: black;
+    flex: 1;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+}
