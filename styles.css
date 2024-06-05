@@ -43,4 +43,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.grid-change, .rainbow-mode {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+.button-container {
+    border: solid orange;
+    display: flex;
+    justify-content: space-between;
+
+}
+.header {
+    background-color: orange;
+    border: solid black;
+    color: white;
+    padding: 5px;
 }
